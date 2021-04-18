@@ -1,0 +1,71 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 0;
+    background-color: white;
+}
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+    box-shadow: 0 1px 5px 0 gray;
+    flex-shrink: inherit;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.nav-logo-container {
+    display: flex;
+    flex-direction: row;
+    flex: 0.15;
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0.8;
+    /* border: 1px solid black; */
+    flex-shrink: inherit;
+    align-items: center;
+}
+.nav-btn-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo {
+    width: 112px;
+    height: 32px;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap ;
+    /* flex: 1; */
+/* padding-left: 10px;
+padding-right: 10px; */
+    /* border: 1px solid red; */
+    margin-left: 5px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.btn {
+    display: flex;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 150px;
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+} 
